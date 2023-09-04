@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Unidades</title>
+</head>
+
+<body>
+    <h1>Conversor de Unidades</h1>
+    <p>Ingrese un valor y seleccione la unidad de origen y la unidad de destino:</p>
+    <input type="number" id="valor" placeholder="Valor">
+    <select id="unidadOrigen">
+        <option value="metro">Metro</option>
+        <option value="centimetro">Centímetro</option>
+        <option value="pulgada">Pulgada</option>
+    </select>
+    <select id="unidadDestino">
+        <option value="metro">Metro</option>
+        <option value="centimetro">Centímetro</option>
+        <option value="pulgada">Pulgada</option>
+    </select>
+    <button onclick="convertirUnidades()">Convertir</button>
+
+    <p id="resultado">El resultado es: </p>
+
+    <script src="index.js"></script>
+</body>
+</html>
